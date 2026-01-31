@@ -17,7 +17,11 @@ const CONFIG = {
 };
 
 // Test Data - Completely New Test Cases
+
+
 const TEST_DATA = {
+
+    //Positive Request
   positive: [
     {
       tcId: 'Pos_Fun_001',
@@ -207,6 +211,11 @@ const TEST_DATA = {
       length: 'L'
     }
   ],
+
+
+
+
+  //Negative Request
   
   negative: [
     {
@@ -281,6 +290,8 @@ const TEST_DATA = {
     }
   ],
   
+
+  // UI Request
   ui: {
     tcId: 'Pos_UI_001',
     name: 'UI',

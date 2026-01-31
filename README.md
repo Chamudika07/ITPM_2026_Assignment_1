@@ -7,19 +7,24 @@ This project contains automated test cases for testing the Singlish to Sinhala t
 ## Project Structure
 
 ```
-IT23181410/
-├── IT23181410_GitHub_Link.txt    # GitHub repository link
-├── IT23181410_TestCases.xlsx     # Excel file with test cases
+ITPM_ASSIGNMENT1/
+├── GitHub_Link.txt    # GitHub repository link
+├── TestCases 
+    └── Final_ITPM_Assignment1  # Excel file with test cases
 ├── README.md                      # This file
-├── package.json                   # Root dependencies
-├── singlish-playwright/           # Playwright project
-│   ├── .github/workflows/         # GitHub Actions
+├── palywright-itpm/           # Playwright project
+│   ├── test-results
+    |-- playwright-report
+    |-- node_modules
 │   ├── tests/
-│   │   ├── IT23181410_positive_functional.spec.ts
-│   │   ├── IT23181410_negative_functional.spec.ts
-│   │   └── IT23181410_positive_ui.spec.ts
+│   │   ├── example.spec.ts
+│   │   ├── Test_Check.spec.ts # All Test Cases Heer
+│   │ 
 │   ├── playwright.config.js
-│   └── package.json
+│   |── package.json
+    |──package-lock.json
+    |__.gitignore
+
 └── test-results/                  # Test execution results
 ```
 
@@ -32,8 +37,8 @@ IT23181410/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/ITPM-Assignment-01-IT23181410.git
-cd ITPM-Assignment-01-IT23181410
+git clone https://github.com/Chamudika07/ITPM_2026_Assignment_1
+cd playwright-itpm
 ```
 
 2. Install dependencies:
@@ -69,9 +74,9 @@ npx playwright show-report
 
 | Category | File | Count |
 |----------|------|-------|
-| Positive Functional | IT23181410_positive_functional.spec.ts | 24 |
-| Negative Functional | IT23181410_negative_functional.spec.ts | 10 |
-| Positive UI | IT23181410_positive_ui.spec.ts | 1 |
+| Positive Functional | Test_Check.spec.ts | 24 |
+| Negative Functional | Test_Check.spec.ts | 10 |
+| Positive UI | Test_Check.spec.ts | 1 |
 | **Total** | | **35** |
 
 ### Expected Test Results
@@ -81,7 +86,7 @@ npx playwright show-report
 
 ## Author
 
-- Registration Number: IT23181410
+- Registration Number: IT22081766
 
 ## License
 
